@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Pichau"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-13 01:47:21 "/>
+        <attribute name="created" value="UGljaGF1O0JSVU5POzIwMjEtMTItMTM7IjAxOjMwOjIyICI7MjE2Nw=="/>
+        <attribute name="edited" value="UGljaGF1O0JSVU5POzIwMjEtMTItMTM7IjAxOjQ3OjIxICI7MTsyMjgy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="nota1, nota2, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite seu nome&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Qual sua nota1?&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Qual sua nota2? &quot;" newline="True"/>
+            <input variable="nota2"/>
+            <assign variable="media" expression="(nota1+nota2)/2"/>
+            <output expression="&quot;O seu nome &#233;: &quot; &amp; nome  &amp; &quot; Sua nota &#233;: &quot; &amp; media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
